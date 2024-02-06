@@ -1,0 +1,12 @@
+
+img{
+    width: 70%;
+    min-height: 150px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: grey; 
+}

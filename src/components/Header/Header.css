@@ -1,0 +1,40 @@
+.header {
+    background-color: rgb(160, 160, 160);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search_icons {
+    display: flex;
+    align-items: center;
+}
+
+.search_icons input {
+    max-width: 500px;
+    width: 50vw;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.right {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right p {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .search_icons {
+        display: none;
+    }
+}
+
